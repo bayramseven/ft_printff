@@ -1,0 +1,14 @@
+
+
+
+
+
+
+
+
+
+kullandığım kaynaklar : Deepl: subjecti türkçeye çeviriyorum. benden istenilenlerini anlıyorum. 
+benden istenilenleri belirledim, bunları zihnimde planladıktan sonra klasör iskeleti kurmak için harekete geçiyorum.
+
+
+https://www.geeksforgeeks.org/c/printf-in-c/ printf fonksiyonunu derinlemesine tanıdım. 
