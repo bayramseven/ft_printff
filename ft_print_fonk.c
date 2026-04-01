@@ -1,35 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_check_format.c                                  :+:      :+:    :+:   */
+/*   ft_print_fonk.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: bayram-seven <bayram-seven@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/01 18:42:19 by bayram-seve       #+#    #+#             */
-/*   Updated: 2026/04/01 19:21:45 by bayram-seve      ###   ########.fr       */
+/*   Created: 2026/04/01 19:18:29 by bayram-seve       #+#    #+#             */
+/*   Updated: 2026/04/01 19:22:10 by bayram-seve      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #include "ft_printf.h"
 
-ft_check_format(va_list argm, const char type )
+int	ft_print_char(int c)
 {
-    int total; 
-    total=0;
-    
-    if(type=='c')
-        total += ft_print_char(va_arg(argm,int)) ;
-    else if (type =='s')
-    {
-       
-    }
-    
-    
-    
-return(total);
-
-
+	return (write(1, &c, 1));
 }
-
-//cspdiucxX% sırasında tek tek fonksiyonları çağıracağım
