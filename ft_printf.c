@@ -6,12 +6,16 @@
 /*   By: bayram-seven <bayram-seven@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/01 00:28:16 by bayram-seve       #+#    #+#             */
-/*   Updated: 2026/04/01 18:21:07 by bayram-seve      ###   ########.fr       */
+/*   Updated: 2026/04/01 18:48:44 by bayram-seve      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 
 #include "ft_printf.h"
+
+
+
+
 
 int	ft_printf(const char *str, ...)
 {
@@ -25,7 +29,7 @@ int	ft_printf(const char *str, ...)
     {
         if(str[i]== '%')
             {
-                total += /*buraya gerekli argümanların yazmamızı sağlayan fonksiyon gelecek*/  ;
+                total += ft_check_format(argm, str[i]);  
                 i++;
             }
             else
@@ -67,7 +71,6 @@ ilk olarak printf
 
 /*
 
-printf fonksiyonunda return(total) diyerek totalin return etmesini sağladım.
- değişkenlerimi 0 a eşitledim 
-
+ft_check_format adında fonksiyon oluşturdum ve argümanlarımı orada yazdıracağım. yazdırdıktan sonra yazdırdığım kadar karakteride total e ekledikten sonra geri dönüp printf str nin içinden devam edeceğim.
+bu fonksiyonda ilk olarak %'den sonra ne geleceğini kontrol edecek. if fonksiyonu ile koşul sağlandığında gerekli yazdırma işlemleri devam edecek.
 */
