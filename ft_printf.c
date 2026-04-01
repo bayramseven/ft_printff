@@ -6,7 +6,7 @@
 /*   By: bayram-seven <bayram-seven@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/01 00:28:16 by bayram-seve       #+#    #+#             */
-/*   Updated: 2026/04/01 17:58:36 by bayram-seve      ###   ########.fr       */
+/*   Updated: 2026/04/01 18:21:07 by bayram-seve      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,13 +18,24 @@ int	ft_printf(const char *str, ...)
     va_list argm;
     int i;
     int total;
+
+    i=0;
+    total =0;
     while (str[i])
     {
-            write(1,&str[i],1);
-            i++;
-            total++;
+        if(str[i]== '%')
+            {
+                total += /*buraya gerekli argümanların yazmamızı sağlayan fonksiyon gelecek*/  ;
+                i++;
+            }
+            else
+            {
+                total +=write(1,&str[i],1);
+                i++;
+            }
+   
     }
-
+return(total)
 }
 
 
@@ -50,5 +61,13 @@ ilk olarak printf
     
     tabii bu makroları kullanabilmek için gerekli olan kütüphaneyi .h dosyama ekleyeceğim.
 
+
+*/
+
+
+/*
+
+printf fonksiyonunda return(total) diyerek totalin return etmesini sağladım.
+ değişkenlerimi 0 a eşitledim 
 
 */
