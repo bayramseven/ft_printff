@@ -1,14 +1,28 @@
 
 
 
-
-
-
-
-
-
 kullandığım kaynaklar : Deepl: subjecti türkçeye çeviriyorum. benden istenilenlerini anlıyorum. 
 benden istenilenleri belirledim, bunları zihnimde planladıktan sonra klasör iskeleti kurmak için harekete geçiyorum.
 
 
 https://www.geeksforgeeks.org/c/printf-in-c/ printf fonksiyonunu derinlemesine tanıdım. 
+https://www.w3schools.com/c/ref_stdio_printf.php 
+https://linux.die.net/man/3/printf
+
+
+https://www.youtube.com/watch?v=4jXXp_rn8ik C'de Macrolar (va_list , va_start, va_arg,va_end) yapısını öğrendim. 
+https://www.tutorialspoint.com/c_standard_library/stdarg_h.htm  macrolar ile ilgili bilgiler edindim.
+https://www.geeksforgeeks.org/c/variadic-functions-in-c/
+
+
+https://www.w3schools.com/c/c_data_types_extended.php c data type hakkında bilgileirmi doğruluğunu kanıtladım.
+
+
+
+-->
+
+harfi yazdırıcaksın. kaç harf yazdırdığını sayıp en son program bitiminde toplaam yazdırılan karakteri söyleyeceksin!
+
+-->
+
+ilk olarak .h dosyasında kullanmam gereken fonksiyonları belirledim. daha sonrasında ise

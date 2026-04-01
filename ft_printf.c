@@ -1,28 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_printf.h                                        :+:      :+:    :+:   */
+/*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: bayram-seven <bayram-seven@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/03/31 22:24:31 by bayram-seve       #+#    #+#             */
-/*   Updated: 2026/04/01 00:44:54 by bayram-seve      ###   ########.fr       */
+/*   Created: 2026/04/01 00:28:16 by bayram-seve       #+#    #+#             */
+/*   Updated: 2026/04/01 00:43:06 by bayram-seve      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_PRINTF_H
-#define FT_PRINTF_H
+
+#include "ft_printf.h"
+
+int	ft_printf(const char *str, ...)
+{
+    
+    
 
 
-# include <stdarg.h>
-# include <unistd.h>
-
-int	ft_printf(const char *str, ...);
-int	ft_print_char(int chr);
-int	ft_print_str(char *str);
-int	ft_print_nbr(int nb);
-int	ft_print_unsigned(unsigned int nb);
-int	ft_print_hex(unsigned int nb, char format);
-int	ft_print_ptr(unsigned long long ptr);
-
-#endif
+}
