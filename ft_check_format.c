@@ -6,7 +6,7 @@
 /*   By: bayram-seven <bayram-seven@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/01 18:42:19 by bayram-seve       #+#    #+#             */
-/*   Updated: 2026/04/02 01:26:39 by bayram-seve      ###   ########.fr       */
+/*   Updated: 2026/04/02 02:07:58 by bayram-seve      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,11 @@ ft_check_format(va_list argm, const char type )
         total += ft_print_char(va_arg(argm,int)) ;
     else if (type =='s')
     {
-       
+       total+= ft_print_str(va_arg(argm, char *));
+    }
+    else if()
+    {
+        
     }
     
     
