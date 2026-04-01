@@ -6,7 +6,7 @@
 /*   By: bayram-seven <bayram-seven@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/01 00:28:16 by bayram-seve       #+#    #+#             */
-/*   Updated: 2026/04/01 18:48:44 by bayram-seve      ###   ########.fr       */
+/*   Updated: 2026/04/01 19:00:16 by bayram-seve      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ int	ft_printf(const char *str, ...)
     {
         if(str[i]== '%')
             {
-                total += ft_check_format(argm, str[i]);  
+                total += ft_check_format(argm, str[i+1]);  
                 i++;
             }
             else
@@ -39,7 +39,7 @@ int	ft_printf(const char *str, ...)
             }
    
     }
-return(total)
+return(total);
 }
 
 
