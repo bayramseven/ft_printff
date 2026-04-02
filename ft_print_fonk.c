@@ -6,7 +6,7 @@
 /*   By: bayram-seven <bayram-seven@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/01 19:18:29 by bayram-seve       #+#    #+#             */
-/*   Updated: 2026/04/02 04:39:44 by bayram-seve      ###   ########.fr       */
+/*   Updated: 2026/04/02 05:01:09 by bayram-seve      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -104,5 +104,4 @@ int ft_print_hexnum( unsigned int n, char format )
         total += write(1, &hexamap[n],1);
     }
     return(total);
-    
 }   
