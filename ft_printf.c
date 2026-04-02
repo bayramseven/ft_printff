@@ -6,7 +6,7 @@
 /*   By: bayram-seven <bayram-seven@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/01 00:28:16 by bayram-seve       #+#    #+#             */
-/*   Updated: 2026/04/02 02:16:14 by bayram-seve      ###   ########.fr       */
+/*   Updated: 2026/04/02 04:42:59 by bayram-seve      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,8 +38,9 @@ int	ft_printf(const char *str, ...)
                 total +=write(1,&str[i],1);
                 i++;
             }
-   
+     
     }
+    va_end(argm);
 return(total);
 }
 
