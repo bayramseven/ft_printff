@@ -6,7 +6,7 @@
 /*   By: bayram-seven <bayram-seven@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/01 19:18:29 by bayram-seve       #+#    #+#             */
-/*   Updated: 2026/04/02 13:51:21 by bayram-seve      ###   ########.fr       */
+/*   Updated: 2026/04/02 14:13:20 by bayram-seve      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -105,7 +105,6 @@ int ft_print_hexnum( unsigned long long n, char type )
     }
     return(total);
 }   
-
 
 int ft_print_ptr(unsigned long long ptr)
 {

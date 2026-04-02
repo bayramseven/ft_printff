@@ -6,7 +6,7 @@
 /*   By: bayram-seven <bayram-seven@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/01 18:42:19 by bayram-seve       #+#    #+#             */
-/*   Updated: 2026/04/02 13:59:41 by bayram-seve      ###   ########.fr       */
+/*   Updated: 2026/04/02 14:12:39 by bayram-seve      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,10 +44,8 @@ int ft_check_format(va_list argm, const char type )
     {
         total+= write(1,"%",1);
     }    
-    
+ 
 return(total);
-
-
 }
 
 //cspdiucxX% sırasında tek tek fonksiyonları çağıracağım

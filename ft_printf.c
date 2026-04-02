@@ -6,7 +6,7 @@
 /*   By: bayram-seven <bayram-seven@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/01 00:28:16 by bayram-seve       #+#    #+#             */
-/*   Updated: 2026/04/02 05:30:07 by bayram-seve      ###   ########.fr       */
+/*   Updated: 2026/04/02 14:09:55 by bayram-seve      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,11 @@
         int i;
         int total;
 
+        if(!str)
+        {
+            return(-1);
+        }
+
         i=0;
         total =0;
         va_start(argm,str);
@@ -38,7 +43,6 @@
                     total +=write(1,&str[i],1);
                     i++;
                 }
-        
         }
         va_end(argm);
     return(total);
