@@ -6,7 +6,7 @@
 /*   By: bayram-seven <bayram-seven@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/01 19:18:29 by bayram-seve       #+#    #+#             */
-/*   Updated: 2026/04/02 05:20:47 by bayram-seve      ###   ########.fr       */
+/*   Updated: 2026/04/02 13:51:21 by bayram-seve      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,8 +69,8 @@ int	ft_print_unbr(unsigned int n)
 	
 	if (n >= 10)
 	{
-		total += ft_print_nbr(n / 10);
-		total += ft_print_nbr(n % 10);
+		total += ft_print_unbr(n / 10);
+		total += ft_print_unbr(n % 10);
 	}
 	else
 	{
@@ -80,24 +80,24 @@ int	ft_print_unbr(unsigned int n)
 	return (total);
 }
 
-int ft_print_hexnum( unsigned long long n, char format )
+int ft_print_hexnum( unsigned long long n, char type )
 {
     int total;
     char *hexamap;
     total=0;
-    if (format == 'x')
+    if (type == 'x')
     {
 		hexamap = "0123456789abcdef";
 	}
-     else if (format =='X')
+     else if (type =='X')
 	{ 
        hexamap = "0123456789ABCDEF";
     }
 
     if ( n >= 16)
 	{
-		total += ft_print_hexnum(n / 16,format);
-		total += ft_print_hexnum(n % 16,format);
+		total += ft_print_hexnum(n / 16,type);
+		total += ft_print_hexnum(n % 16,type);
 	}
     else
     {

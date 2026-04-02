@@ -6,7 +6,7 @@
 /*   By: bayram-seven <bayram-seven@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/01 18:42:19 by bayram-seve       #+#    #+#             */
-/*   Updated: 2026/04/02 05:07:31 by bayram-seve      ###   ########.fr       */
+/*   Updated: 2026/04/02 13:59:41 by bayram-seve      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int ft_check_format(va_list argm, const char type )
     {
        total+= ft_print_str(va_arg(argm, char *));
     }
-    else if(type =='d' ||'i' )
+    else if(type =='d' || type =='i' )
     {
         total += ft_print_nbr(va_arg(argm,int));
     }
@@ -32,13 +32,18 @@ int ft_check_format(va_list argm, const char type )
     {
       total += ft_print_unbr(va_arg(argm,unsigned int));
     }
-    else if (type == 'p')
+    else if (type == 'x'||type == 'X')
     {
-        
+        total +=ft_print_hexnum(va_arg(argm, unsigned int),type);
     }
-    
-    
-    
+    else if ( type =='p')
+    {
+        total += ft_print_ptr(va_arg( argm,unsigned long long));
+    }
+    else if (type=='%')
+    {
+        total+= write(1,"%",1);
+    }    
     
 return(total);
 
