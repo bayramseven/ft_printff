@@ -6,7 +6,7 @@
 /*   By: bayram-seven <bayram-seven@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/01 18:42:19 by bayram-seve       #+#    #+#             */
-/*   Updated: 2026/04/02 05:04:14 by bayram-seve      ###   ########.fr       */
+/*   Updated: 2026/04/02 05:07:31 by bayram-seve      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ int ft_check_format(va_list argm, const char type )
     }
     else if (type == 'p')
     {
-
+        
     }
     
     

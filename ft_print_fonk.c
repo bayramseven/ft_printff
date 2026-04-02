@@ -6,7 +6,7 @@
 /*   By: bayram-seven <bayram-seven@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/01 19:18:29 by bayram-seve       #+#    #+#             */
-/*   Updated: 2026/04/02 05:01:09 by bayram-seve      ###   ########.fr       */
+/*   Updated: 2026/04/02 05:20:47 by bayram-seve      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,7 +80,7 @@ int	ft_print_unbr(unsigned int n)
 	return (total);
 }
 
-int ft_print_hexnum( unsigned int n, char format )
+int ft_print_hexnum( unsigned long long n, char format )
 {
     int total;
     char *hexamap;
@@ -105,3 +105,18 @@ int ft_print_hexnum( unsigned int n, char format )
     }
     return(total);
 }   
+
+
+int ft_print_ptr(unsigned long long ptr)
+{
+    int total;
+    total=0;
+    if (ptr == 0)
+    {
+		return (write(1, "(nil)", 5));
+    }
+    
+    total +=write(1,"0x",2);
+    total += ft_print_hexnum(ptr,'x');
+    return(total);
+}
