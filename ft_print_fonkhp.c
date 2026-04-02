@@ -6,10 +6,11 @@
 /*   By: bayram-seven <bayram-seven@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/02 14:15:34 by bayram-seve       #+#    #+#             */
-/*   Updated: 2026/04/02 14:16:07 by bayram-seve      ###   ########.fr       */
+/*   Updated: 2026/04/02 14:45:36 by bayram-seve      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "ft_printf.h"
 int ft_print_hexnum( unsigned long long n, char type )
 {
     int total;
