@@ -6,7 +6,7 @@
 /*   By: bayram-seven <bayram-seven@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/01 18:42:19 by bayram-seve       #+#    #+#             */
-/*   Updated: 2026/04/02 03:07:40 by bayram-seve      ###   ########.fr       */
+/*   Updated: 2026/04/02 03:15:34 by bayram-seve      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ ft_check_format(va_list argm, const char type )
     {
         total += ft_print_nbr(va_arg(argm,int));
     }
-    else if ()
+    else if (type =='u')
     {
       
     }
