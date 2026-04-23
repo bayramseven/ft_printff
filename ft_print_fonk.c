@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_fonk.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bayram-seven <bayram-seven@student.42.f    +#+  +:+       +#+        */
+/*   By: bayseven <bayseven@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/01 19:18:29 by bayram-seve       #+#    #+#             */
-/*   Updated: 2026/04/21 19:00:57 by bayram-seve      ###   ########.fr       */
+/*   Updated: 2026/04/23 12:05:30 by bayseven         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

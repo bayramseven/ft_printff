@@ -39,6 +39,7 @@ Temizlik için:
 make fclean
 ```
 
+
 ## Algorithm & Data Structure
 
 Bu projede karmaşık bir veri yapısı kullanılmadı; genel olarak basit fonksiyon çağrıları ve yazma işlemleriyle ilerledim.

@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: bayram-seven <bayram-seven@student.42.f    +#+  +:+       +#+         #
+#    By: bayseven <bayseven@student.42istanbul.c    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/04/02 14:20:53 by bayram-seve       #+#    #+#              #
-#    Updated: 2026/04/02 14:34:59 by bayram-seve      ###   ########.fr        #
+#    Updated: 2026/04/23 10:41:40 by bayseven         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 

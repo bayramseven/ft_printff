@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bayram-seven <bayram-seven@student.42.f    +#+  +:+       +#+        */
+/*   By: bayseven <bayseven@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/31 22:24:31 by bayram-seve       #+#    #+#             */
-/*   Updated: 2026/04/21 19:01:12 by bayram-seve      ###   ########.fr       */
+/*   Updated: 2026/04/23 10:27:40 by bayseven         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
